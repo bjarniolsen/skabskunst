@@ -53,7 +53,7 @@
     // package.json per default.
     // *************************************************
     // *************************************************
-        cssPreprocessor = '', // must be lowercase!
+        cssPreprocessor = 'sass', // must be lowercase!
     // *************************************************
     // *************************************************
     // That's it, really. But you're welcome to read on. ;-)
