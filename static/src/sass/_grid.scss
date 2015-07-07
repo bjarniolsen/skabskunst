@@ -1,0 +1,93 @@
+// XSMALL
+@media only screen and (max-width: $bp-xs-max) {
+    .combine-layout + .combine-layout,
+    [class*="col-"] + [class*="col-"] {
+        margin-top: $gutter-fixed;
+    }
+}
+
+// SMALL
+@media only screen and (min-width: $bp-sm-min) {
+    .combine-layout {
+        text-align: right; /* align inline-blocks right */
+        font-size: 0; /* make sure whitespace between inline-blocks doesn't ruin the layout */
+    }
+    .combine-layout:after {
+        /* clear those floats */
+        display: table;
+        clear: both;
+        content: " ";
+    }
+    .combine-layout > * {
+        float: left; /* float blocks by default */
+        text-align: left; /* reset text-align right */
+        font-size: 16px; /* reset font-size to something sane */
+    }
+    .combine-layout > .break {
+        clear: left; /* make sure floated blocks start new row with .break */
+    }
+    .combine-layout > .divide,
+    .combine-layout > .divide ~ * {
+        /* start new pseudo column by switching from floated blocks to inline-blocks */
+        display: inline-block; /* duh */
+        vertical-align: top; /* make sure blocks align at top */
+        float: none; /* reset float */
+    }
+    .combine-layout > .divide.break,
+    .combine-layout > .divide ~ .break {
+        clear: none; /* reset .break occurring after .divide */
+    }
+    .combine-layout.no-gutter [class*="col-"] {
+        padding: 0;
+    }
+
+    [class*="col-"] {
+        width: 100%;
+        margin-top: 0;
+        padding: $gutter-fixed * 2;
+        list-style-type: none;
+    }
+}
+
+// MEDIUM -> LARGE
+@media only screen and (min-width: $bp-md-min) and (max-width: $bp-md-max) {
+}
+
+// LARGE
+@media only screen and (min-width: $bp-lg-min) {
+    .col-2 {
+        width: 16.6666666666%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.3333333333%;
+    }
+    .col-5 {
+        width: 41.6666666666%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.3333333333%;
+    }
+    .col-8 {
+        width: 66.6666666666%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.3333333333%;
+    }
+    .col-12 {
+        width: 100%;
+    }
+}
+
+// XLARGE
+@media only screen and (min-width: $bp-xlg-min) {
+}
+

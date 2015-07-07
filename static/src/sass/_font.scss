@@ -1,12 +1,29 @@
 ﻿/* ==============
-    Fonts
-   ============== */
+Fonts
+============== */
 
 html {
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
-	-moz-font-smoothing: antialiased;
-	-o-font-smoothing: antialiased;
-	font-smoothing: antialiased;
-	font-smooth: always;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    font-smooth: always;
+}
+
+@font-face {
+    font-family: 'titilliumlight';
+    src: url('../fonts/Titillium-Light-webfont.eot');
+    src: url('../fonts/Titillium-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Titillium-Light-webfont.woff2') format('woff2'),
+         url('../fonts/Titillium-Light-webfont.woff') format('woff'),
+         url('../fonts/Titillium-Light-webfont.ttf') format('truetype'),
+         url('../fonts/Titillium-Light-webfont.svg#titilliumlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
 }

@@ -8,6 +8,8 @@
 $body-bg:               #fff;
 $text-color:            #222;
 
+//
+
 // Links
 // -------------------------
 
@@ -22,13 +24,24 @@ $font-family-serif:			Georgia, "Times New Roman", Times, serif;
 $font-family-monospace:		Monaco, Menlo, Consolas, "Courier New", monospace;
 $font-family-base:			$font-family-sans-serif;
 
-$font-size-base:			14px;
+$font-size-base:			16px;
 
-// Grid and breakpoints
+//Breakpoints
+// http://www.mydevice.io/devices/
+$bp-xs-max:                     30em; // 480px
+$bp-sm-min:                     30.125em; // 482px
+$bp-sm-max:                     47.938em; // 767px
+$bp-md-min:                     48em; // 768px
+$bp-md-max:                     61.188em; // 979px
+$bp-lg-min:                     61.250em; // 980px
+$bp-lg-max:                     75em; // 1200px
+$bp-xlg-min:                    75.125em; // 1202px
+//$bp-xlg-max:                    80.625em; // 1290px
+$bp-xlg-max:                    90em; // 1440px
 
-$grid-gutter-width:         30px;
+// Site max width
+$site-max-width:                80.625em; // 1440px
 
-$screen-phone:				480px;
-$screen-tablet:				768px;
-$screen-desktop:			992px;
-$screen-lg-desktop:			1200px;
+// The air
+$gutter-default:                1.5em; // 24px
+$gutter-fixed:                  15px;
