@@ -1,0 +1,37 @@
+// Converts a pixel number (without px) to an em number compared to the base pixel font size (just a number to aim for)
+@function pxToEm( $px, $base: null ) {
+	@if($base == null) {
+		$base: $mainFontSize;
+	}
+
+	@return roundNum(($px / $base)) * 1em;
+}
+
+@function pxToRem( $px ) {
+	@return roundNum(($px / 16)) * 1rem;
+}
+
+@function roundNum( $em, $mtpl: 10000, $rounding: 0 ) {
+	// $rounding indicates whether the rounding method should be:
+	// -1: floor
+	//  0: round
+	//  1: ceil
+
+	$res: $em * $mtpl;
+
+	@if ($mtpl == 0) {
+		$mtpl: 1;
+	}
+
+	@if ($rounding < 0) {
+		$res: floor($res);
+	}
+	@elseif ($rounding > 0) {
+		$res: ceil($res);
+	}
+	@else {
+		$res: round($res);
+	}
+
+	@return $res / $mtpl;
+}

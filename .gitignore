@@ -1,0 +1,6 @@
+#NODEJS
+node_modules
+*.log
+
+#THIS PROJECT
+dist

@@ -1,0 +1,68 @@
+﻿//--------------------------------------
+// Created: 
+// Created by: 
+// Modifiers:
+//--------------------------------------
+
+// Font Setup
+@import "_font";
+
+// Core variables and mixins
+@import "_variables";
+@import "_mixins";
+
+// Normalize
+@import "_normalize";
+
+/* ==============
+    GENEREL ELEMENTS
+   ============== */
+
+body {
+    margin: 0;
+    padding: 1em;
+    color: $text-color;
+    overflow-y: scroll;
+    font-family: sans-serif;
+    background: $body-bg;
+    line-height: 1.4;
+    @media all and (min-width: 980px) {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+* + * {
+    margin-top: 1.5em;
+}
+
+::-moz-selection {
+    background: #faad17;
+    color: #333132;
+    text-shadow: none;
+}
+
+::selection {
+    background: #faad17;
+    color: #333132;
+    text-shadow: none;
+}
+
+input, textarea:focus, input:focus {
+    outline: 0;
+    border: 0;
+}
+
+img {
+    max-width:100%;
+    height:auto;
+}
+
+/* ==============
+    DIS/PLAY CSS
+   ============== */
+
+// Helper classes
+@import "_helpers";
+@import "_functions.scss";
+@import "_imagehandler.scss";
