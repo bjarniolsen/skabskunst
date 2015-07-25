@@ -25,12 +25,166 @@
 
         <div class="site-wrapper">
             <header role="banner">
-                <h1 class="max-width"><a href="<?php $_SERVER['PHP_SELF'] ?>" title="Til forsiden">Sassi Bischoff</a> Skabskunst - Kunsten ud af skabet</h1>
+                <h1 class="max-width"><a href="<?php $_SERVER['PHP_SELF'] ?>" title="Til forsiden">Sassi Bischoff</a> SkabsKunst - Kunsten ud af skabet</h1>
             </header>
 
             <main role="main" class="max-width">
                 <section role="region" aria-labelledby="sectionheader">
                     <div class="combine-layout">
+                        <div class="col-3">
+                            <div class="box" tabindex="0">
+                                <span class="image-wrap">
+                                    <img src="static/dist/img/thumb/umalet-el-skab.jpg" alt="Et endnu umalet el skab" />
+                                </span>
+                                <p>
+                                    <span class="address">Gaden 1, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Sassi Bischoff</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="box" tabindex="0">
+                                <span class="image-wrap">
+                                    <img src="static/dist/img/thumb/umalet-el-skab.jpg" alt="Et endnu umalet el skab" />
+                                </span>
+                                <p>
+                                <span class="address">Annebergvej 50, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Nina ABC</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="box" tabindex="0">
+                                <span class="image-wrap">
+                                    <img src="static/dist/img/thumb/umalet-el-skab.jpg" alt="Et endnu umalet el skab" />
+                                </span>
+                                <p>
+                                    <span class="address">Gaden 1, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Sassi Bischoff</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="box" tabindex="0">
+                                <span class="image-wrap">
+                                    <img src="static/dist/img/thumb/umalet-el-skab.jpg" alt="Et endnu umalet el skab" />
+                                </span>
+                                <p>
+                                <span class="address">Annebergvej 50, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Nina ABC</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="box" tabindex="0">
+                                <span class="image-wrap">
+                                    <img src="static/dist/img/thumb/umalet-el-skab.jpg" alt="Et endnu umalet el skab" />
+                                </span>
+                                <p>
+                                    <span class="address">Gaden 1, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Sassi Bischoff</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="box" tabindex="0">
+                                <span class="image-wrap">
+                                    <img src="static/dist/img/thumb/umalet-el-skab.jpg" alt="Et endnu umalet el skab" />
+                                </span>
+                                <p>
+                                <span class="address">Annebergvej 50, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Nina ABC</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="box" tabindex="0">
+                                <span class="image-wrap">
+                                    <img src="static/dist/img/thumb/umalet-el-skab.jpg" alt="Et endnu umalet el skab" />
+                                </span>
+                                <p>
+                                    <span class="address">Gaden 1, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Sassi Bischoff</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="box" tabindex="0">
+                                <span class="image-wrap">
+                                    <img src="static/dist/img/thumb/umalet-el-skab.jpg" alt="Et endnu umalet el skab" />
+                                </span>
+                                <p>
+                                <span class="address">Annebergvej 50, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Nina ABC</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="box" tabindex="0">
+                                <span class="image-wrap">
+                                    <img src="static/dist/img/thumb/umalet-el-skab.jpg" alt="Et endnu umalet el skab" />
+                                </span>
+                                <p>
+                                    <span class="address">Gaden 1, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Sassi Bischoff</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="box" tabindex="0">
+                                <span class="image-wrap">
+                                    <img src="static/dist/img/thumb/umalet-el-skab.jpg" alt="Et endnu umalet el skab" />
+                                </span>
+                                <p>
+                                <span class="address">Annebergvej 50, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Nina ABC</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="box" tabindex="0">
+                                <span class="image-wrap">
+                                    <img src="static/dist/img/thumb/umalet-el-skab.jpg" alt="Et endnu umalet el skab" />
+                                </span>
+                                <p>
+                                    <span class="address">Gaden 1, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Sassi Bischoff</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="box" tabindex="0">
+                                <span class="image-wrap">
+                                    <img src="static/dist/img/thumb/umalet-el-skab.jpg" alt="Et endnu umalet el skab" />
+                                </span>
+                                <p>
+                                <span class="address">Annebergvej 50, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Nina ABC</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="box" tabindex="0">
+                                <span class="image-wrap">
+                                    <img src="static/dist/img/thumb/umalet-el-skab.jpg" alt="Et endnu umalet el skab" />
+                                </span>
+                                <p>
+                                    <span class="address">Gaden 1, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Sassi Bischoff</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="box" tabindex="0">
+                                <span class="image-wrap">
+                                    <img src="static/dist/img/thumb/umalet-el-skab.jpg" alt="Et endnu umalet el skab" />
+                                </span>
+                                <p>
+                                <span class="address">Annebergvej 50, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Nina ABC</span>
+                                </p>
+                            </div>
+                        </div>
                         <div class="col-3">
                             <div class="box" tabindex="0">
                                 <span class="image-wrap">

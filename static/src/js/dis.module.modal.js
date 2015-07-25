@@ -37,22 +37,23 @@
                 image = $('<img src="" alt="" />'),
                 info = $('<p/>'),
                 address = $('<span class="address"/>'),
-                artist = $('<span class="artist"/>');
+                artist = $('<span class="artist"/>'),
+                overlay = $('<div class="overlay visuallyhidden"/>');
 
             // append dom into modal
             info.append(address, artist);
             modal.append(closer, image, info);
 
-            // save reference to modal
+            // save reference to modal and overlay
             DOM.modal = modal;
-            window.$body.append(DOM.modal);
+            DOM.overlay = overlay;
+            window.$body.append(DOM.modal, DOM.overlay);
         }
 
 
         function appendToModal(box) {
             // save reference to clicked box
             DOM.box = box;
-            //DOM.box.off();
 
             // get info from box...
             var imageSrc = box.find("img").attr("src").replace("thumb/", "large/", "gi"),
@@ -71,12 +72,17 @@
             closer.on("click", function(event) {
                 // hide modal
                 DOM.modal.addClass("visuallyhidden");
+                // hide overlay
+                DOM.overlay.addClass("visuallyhidden");
                 // give focus back to the clicked box
                 DOM.box.focus();
             });
 
             // show modal
             DOM.modal.removeClass("visuallyhidden");
+
+            // show overlay
+            DOM.overlay.removeClass("visuallyhidden");
         }
 
         function init() {

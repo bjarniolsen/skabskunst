@@ -16,10 +16,6 @@ body {
     line-height: 1.4;
 }
 
-/** + * {
-    margin-top: 1.5em;
-}*/
-
 ::-moz-selection {
     background: #faad17;
     color: #333132;
@@ -62,26 +58,45 @@ img {
         line-height: 120px;
         padding-left: 360px;
         color: #333;
-        //text-transform: uppercase;
         letter-spacing: 1px;
+
+        @media only screen and (max-width: $bp-lg-min) {
+            height: auto;
+            line-height: inherit;
+            padding: $gutter-default;
+            font-size: 1.5em;
+            text-align: center;
+        }
 
         @include clearfix;
 
         > a {
             position: absolute;
-            top: -30px;
+            top: -7px;
             left: 0;
             width: 340px;
             height: 233px;
             overflow: hidden;
-            text-indent: -100%;
+            text-indent: -200%;
             background: url("../img/sassi-logo.gif") no-repeat center left;
+
+            @media only screen and (max-width: $bp-lg-min) {
+                position: static;
+                width: auto;
+                height: 100px;
+                display: block;
+                background-position: top center;
+                background-size: 140px;
+            }
         }
     }
 }
 
 [role="main"] {
     padding-top: $gutter-default * 3;
+    @media only screen and (max-width: $bp-lg-min) {
+        padding-top: 0;
+    }
 }
 
 [role="region"] {
@@ -116,7 +131,7 @@ img {
         color: white;
         background-color: rgba(0,0,0,0.6);
 
-        &:before {
+        /*&:before {
             content: "";
             position: absolute;
             top: 0;
@@ -124,7 +139,7 @@ img {
             width: 10px;
             height: 10px;
             background-color: red;
-        }
+        }*/
     }
 
     .address,
@@ -147,7 +162,7 @@ img {
         > p {
             background-color: #000;
 
-            &:before {
+            /*&:before {
                 content: "";
                 position: absolute;
                 top: 0;
@@ -155,7 +170,7 @@ img {
                 width: 20px;
                 height: 20px;
                 background-color: red;
-            }
+            }*/
         }
 
         .address {
@@ -168,6 +183,29 @@ img {
             font-size: 1em;
         }
     }
+}
+
+.modal {
+    position: fixed;
+    top: 5%;
+    right: 5%;
+    bottom: 5%;
+    left: 5%;
+    z-index: 3;
+    padding: $gutter-default;
+    border: 1px solid #e5e5e5;
+    background-color: #fcfcfc;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    background-color: #000;
+    background-color: rgba(0,0,0,0.4);
 }
 
 [role="content-info"] {
