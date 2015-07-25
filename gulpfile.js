@@ -464,7 +464,7 @@
                 plumber = disRequire("gulp-plumber");
 
             gulp.src([
-                'static/src/img/*.{png,jpg,jpeg,gif,svg}'
+                'static/src/img/**/*.{png,jpg,jpeg,gif,svg}'
             ], { base: 'static/src' })
                 .pipe(plumber())
                 .pipe(imageop({

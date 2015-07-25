@@ -32,174 +32,24 @@
                 <section role="region" aria-labelledby="sectionheader">
                     <div class="combine-layout">
                         <div class="col-3">
-                            <div class="box">
-                                <h2>Kommer snart</h2>
+                            <div class="box" tabindex="0">
+                                <span class="image-wrap">
+                                    <img src="static/dist/img/thumb/umalet-el-skab.jpg" alt="Et endnu umalet el skab" />
+                                </span>
                                 <p>
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Et endnu umalet el skab" role="presentation" />
-                                    <span class="adress">Adresse: Gaden 1, 9000 Aalborg</span>
+                                    <span class="address">Gaden 1, 9000 Aalborg</span>
                                     <span class="artist">Kunstner: Sassi Bischoff</span>
                                 </p>
                             </div>
                         </div>
                         <div class="col-3">
-                            <div class="box">
-                                <h2>Kommer snart</h2>
+                            <div class="box" tabindex="0">
+                                <span class="image-wrap">
+                                    <img src="static/dist/img/thumb/umalet-el-skab.jpg" alt="Et endnu umalet el skab" />
+                                </span>
                                 <p>
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Et endnu umalet el skab" role="presentation" />
-                                    <span class="adress">Adresse: Gaden 1, 9000 Aalborg</span>
-                                    <span class="artist">Kunstner: Sassi Bischoff</span>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="box">
-                                <h2>Kommer snart</h2>
-                                <p>
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Et endnu umalet el skab" role="presentation" />
-                                    <span class="adress">Adresse: Gaden 1, 9000 Aalborg</span>
-                                    <span class="artist">Kunstner: Sassi Bischoff</span>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="box">
-                                <h2>Kommer snart</h2>
-                                <p>
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Et endnu umalet el skab" role="presentation" />
-                                    <span class="adress">Adresse: Gaden 1, 9000 Aalborg</span>
-                                    <span class="artist">Kunstner: Sassi Bischoff</span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section role="region" aria-labelledby="sectionheader">
-                    <div class="combine-layout">
-                        <div class="col-3">
-                            <div class="box">
-                                <h2>Kommer snart</h2>
-                                <p>
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Et endnu umalet el skab" role="presentation" />
-                                    <span class="adress">Adresse: Gaden 1, 9000 Aalborg</span>
-                                    <span class="artist">Kunstner: Sassi Bischoff</span>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="box">
-                                <h2>Kommer snart</h2>
-                                <p>
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Et endnu umalet el skab" role="presentation" />
-                                    <span class="adress">Adresse: Gaden 1, 9000 Aalborg</span>
-                                    <span class="artist">Kunstner: Sassi Bischoff</span>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="box">
-                                <h2>Kommer snart</h2>
-                                <p>
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Et endnu umalet el skab" role="presentation" />
-                                    <span class="adress">Adresse: Gaden 1, 9000 Aalborg</span>
-                                    <span class="artist">Kunstner: Sassi Bischoff</span>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="box">
-                                <h2>Kommer snart</h2>
-                                <p>
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Et endnu umalet el skab" role="presentation" />
-                                    <span class="adress">Adresse: Gaden 1, 9000 Aalborg</span>
-                                    <span class="artist">Kunstner: Sassi Bischoff</span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section role="region" aria-labelledby="sectionheader">
-                    <div class="combine-layout">
-                        <div class="col-3">
-                            <div class="box">
-                                <h2>Kommer snart</h2>
-                                <p>
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Et endnu umalet el skab" role="presentation" />
-                                    <span class="adress">Adresse: Gaden 1, 9000 Aalborg</span>
-                                    <span class="artist">Kunstner: Sassi Bischoff</span>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="box">
-                                <h2>Kommer snart</h2>
-                                <p>
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Et endnu umalet el skab" role="presentation" />
-                                    <span class="adress">Adresse: Gaden 1, 9000 Aalborg</span>
-                                    <span class="artist">Kunstner: Sassi Bischoff</span>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="box">
-                                <h2>Kommer snart</h2>
-                                <p>
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Et endnu umalet el skab" role="presentation" />
-                                    <span class="adress">Adresse: Gaden 1, 9000 Aalborg</span>
-                                    <span class="artist">Kunstner: Sassi Bischoff</span>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="box">
-                                <h2>Kommer snart</h2>
-                                <p>
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Et endnu umalet el skab" role="presentation" />
-                                    <span class="adress">Adresse: Gaden 1, 9000 Aalborg</span>
-                                    <span class="artist">Kunstner: Sassi Bischoff</span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section role="region" aria-labelledby="sectionheader">
-                    <div class="combine-layout">
-                        <div class="col-3">
-                            <div class="box">
-                                <h2>Kommer snart</h2>
-                                <p>
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Et endnu umalet el skab" role="presentation" />
-                                    <span class="adress">Adresse: Gaden 1, 9000 Aalborg</span>
-                                    <span class="artist">Kunstner: Sassi Bischoff</span>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="box">
-                                <h2>Kommer snart</h2>
-                                <p>
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Et endnu umalet el skab" role="presentation" />
-                                    <span class="adress">Adresse: Gaden 1, 9000 Aalborg</span>
-                                    <span class="artist">Kunstner: Sassi Bischoff</span>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="box">
-                                <h2>Kommer snart</h2>
-                                <p>
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Et endnu umalet el skab" role="presentation" />
-                                    <span class="adress">Adresse: Gaden 1, 9000 Aalborg</span>
-                                    <span class="artist">Kunstner: Sassi Bischoff</span>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="box">
-                                <h2>Kommer snart</h2>
-                                <p>
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Et endnu umalet el skab" role="presentation" />
-                                    <span class="adress">Adresse: Gaden 1, 9000 Aalborg</span>
-                                    <span class="artist">Kunstner: Sassi Bischoff</span>
+                                <span class="address">Annebergvej 50, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Nina ABC</span>
                                 </p>
                             </div>
                         </div>

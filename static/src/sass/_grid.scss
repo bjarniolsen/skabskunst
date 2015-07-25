@@ -1,15 +1,21 @@
 // XSMALL
 @media only screen and (max-width: $bp-xs-max) {
+    [class*="col-"] {
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+        padding: $gutter-fixed * 2;
+        list-style-type: none;
+    }
+}
+
+@media only screen and (min-width: $bp-xs-max) {
     .combine-layout + .combine-layout,
     [class*="col-"] + [class*="col-"] {
         margin-top: $gutter-fixed;
     }
-}
-
-// SMALL
-@media only screen and (min-width: $bp-sm-min) {
     .combine-layout {
-        text-align: right; /* align inline-blocks right */
+        text-align: center; /* align inline-blocks right */
         font-size: 0; /* make sure whitespace between inline-blocks doesn't ruin the layout */
     }
     .combine-layout:after {
@@ -19,7 +25,8 @@
         content: " ";
     }
     .combine-layout > * {
-        float: left; /* float blocks by default */
+        /*float: left;  float blocks by default */
+        display: inline-block;
         text-align: left; /* reset text-align right */
         font-size: 16px; /* reset font-size to something sane */
     }
@@ -31,7 +38,7 @@
         /* start new pseudo column by switching from floated blocks to inline-blocks */
         display: inline-block; /* duh */
         vertical-align: top; /* make sure blocks align at top */
-        float: none; /* reset float */
+        /*float: none;  reset float */
     }
     .combine-layout > .divide.break,
     .combine-layout > .divide ~ .break {
@@ -40,12 +47,18 @@
     .combine-layout.no-gutter [class*="col-"] {
         padding: 0;
     }
-
     [class*="col-"] {
-        width: 100%;
         margin-top: 0;
         padding: $gutter-fixed * 2;
         list-style-type: none;
+    }
+}
+
+// SMALL
+@media only screen and (min-width: $bp-sm-min) {
+    [class*="col-"] {
+        width: 22.5em;
+        height: 22.5em;
     }
 }
 
@@ -55,7 +68,7 @@
 
 // LARGE
 @media only screen and (min-width: $bp-lg-min) {
-    .col-2 {
+    /*.col-2 {
         width: 16.6666666666%;
     }
     .col-3 {
@@ -84,7 +97,7 @@
     }
     .col-12 {
         width: 100%;
-    }
+    }*/
 }
 
 // XLARGE
