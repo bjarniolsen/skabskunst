@@ -107,7 +107,8 @@ img {
     position: relative;
     overflow: hidden;
     height: 100%;
-    cursor: pointer;
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
 
     * {
         transition: all 0.5s ease;
@@ -186,15 +187,58 @@ img {
 }
 
 .modal {
-    position: fixed;
+    position: absolute;
+    z-index: 10;
     top: 5%;
-    right: 5%;
-    bottom: 5%;
     left: 5%;
-    z-index: 3;
-    padding: $gutter-default;
-    border: 1px solid #e5e5e5;
-    background-color: #fcfcfc;
+    width: 90%;
+    padding: 4%;
+    text-align: center;
+    background-color: white;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+
+    > .close {
+        position: absolute;
+        top: 1%;
+        right: 1%;
+        padding: 8px;
+        color: white;
+        background-color: #606060;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        border-radius: 50%;
+        cursor: pointer;
+
+        &:hover {
+            color: white;
+            background-color: #303030;
+        }
+    }
+
+    > img {
+        display: inline-block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    > p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .address,
+    .artist {
+        display: block;
+        font-size: 1.3em;
+        font-weight: 700;
+    }
+
 }
 
 .overlay {

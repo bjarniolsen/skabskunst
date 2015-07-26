@@ -33,7 +33,7 @@
 
         function buildModal() {
             var modal = $('<div class="modal visuallyhidden"/>'),
-                closer = $('<button type="button">Luk</button>'),
+                closer = $('<button type="button" class="close">Luk</button>'),
                 image = $('<img src="" alt="" />'),
                 info = $('<p/>'),
                 address = $('<span class="address"/>'),
@@ -77,6 +77,12 @@
                 // give focus back to the clicked box
                 DOM.box.focus();
             });
+
+            // place modal
+            DOM.modal.css("top", $(window).scrollTop() + 30);
+
+            // overlay height
+            DOM.overlay.height($("body").height());
 
             // show modal
             DOM.modal.removeClass("visuallyhidden");
