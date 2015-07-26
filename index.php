@@ -3,15 +3,15 @@
 <!--[if IE 7]>         <html lang="da" class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html lang="da" class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
-    <html lang="da" class="no-js">
-    <!--<![endif]-->
+<html lang="da" class="no-js">
+<!--<![endif]-->
     <head>
 
         <meta charset="utf-8">
         <!-- Add to web.config -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-        <title>Kunsten ud af skabet - Sassi Bischoff</title>
+        <title>SkabsKunst - Sassi Bischoff</title>
 
         <meta name="description" content="Aalborg får nu kunsten udenpå skabet! Kunsten får en funktion, som en del af byens rum og det daglige miljø vi færdes i. Et udvalg af byens el og teknik-skabe udsmykkes med kunst/malerier. Hvert enkelt el-skab dekoreres med unik, abstrakt eller figurativ kunst.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -242,7 +242,7 @@
             </main>
 
             <footer role="content-info">
-                <p class="max-width">Kontakt: Sassi Bischoff, telefon: 24873101, Email: sassibis@hotmail.com</p>
+                <p class="max-width">Kontakt: Sassi Bischoff, Email: sassibis@hotmail.com</p>
             </footer>
         </div>
 
@@ -256,16 +256,14 @@
 
         <script src="static/dist/js/main.min.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.
         <script>
-(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-                                        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-e.src='//www.google-analytics.com/analytics.js';
-r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-9647211-1','auto');ga('send','pageview');
         </script>
-        -->
 
     </body>
-    </html>
+</html>
