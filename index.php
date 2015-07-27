@@ -105,10 +105,11 @@
                         <div class="col-3">
                             <div class="box" tabindex="0">
                                 <span class="image-wrap">
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Kommer snart" />
+                                    <img src="static/dist/img/thumb/Sassi-Bishoff-Kastetvej-Vestre-Fjordvej.jpg" alt="Elskab ved hjørnet af Kastetvej og Vestre Fjordvej i Aalborg" />
                                 </span>
                                 <p>
-                                    <span class="address">Kommer snart</span>
+                                <span class="address">Kastetvej / Vestre Fjordvej, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Sassi Bischoff</span>
                                 </p>
                             </div>
                         </div>
