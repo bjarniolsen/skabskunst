@@ -39,11 +39,12 @@
                 info = $('<p/>'),
                 address = $('<span class="address"/>'),
                 artist = $('<span class="artist"/>'),
+                loader = $('<span class="loader"/>'),
                 overlay = $('<div class="overlay visuallyhidden"/>');
 
             // append dom into modal
             info.append(address, artist);
-            modal.append(closer, image, info);
+            modal.append(closer, image, info, loader);
 
             // save reference to modal and overlay
             DOM.modal = modal;
@@ -82,9 +83,6 @@
                 modalAddress.text("");
                 modalArtist.text("");
             });
-
-            // place modal
-            DOM.modal.css("top", $(window).scrollTop() + 30);
 
             // overlay height
             DOM.overlay.height($("body").height());

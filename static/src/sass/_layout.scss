@@ -188,8 +188,10 @@ img {
     position: absolute;
     z-index: 10;
     top: 5%;
+    right: 5%;
     left: 5%;
     width: 90%;
+    min-height: 90%;
     padding: 4%;
     text-align: center;
     background-color: white;
@@ -237,6 +239,15 @@ img {
         font-weight: 700;
     }
 
+    > .loader {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        background: url("../img/loader.gif") no-repeat center;
+    }
 }
 
 .overlay {
