@@ -23,12 +23,13 @@
         // Define the actual configuration for this instantiation
         configuration = $.extend(true, defaults, objectConfiguration),
         DOM = {},
+        screenState = "",
         eventHandlers,
         selfScope = this;
 
         eventHandlers = {
             refreshAll: function () {
-            },
+            }
         };
 
         function buildModal() {
@@ -61,9 +62,9 @@
                 artist = box.find(".artist").text();
 
             // ...and insert it into modal
-            DOM.modal.find("img").attr("src", imageSrc);
-            DOM.modal.find(".address").text(address);
-            DOM.modal.find(".artist").text(artist);
+            var modalImage = DOM.modal.find("img").attr("src", imageSrc);
+            var modalAddress = DOM.modal.find(".address").text(address);
+            var modalArtist = DOM.modal.find(".artist").text(artist);
 
             // give focus to close button
             var closer = DOM.modal.find("button").focus();
@@ -76,6 +77,10 @@
                 DOM.overlay.addClass("visuallyhidden");
                 // give focus back to the clicked box
                 DOM.box.focus();
+                // clean up modal
+                modalImage.attr("src", "");
+                modalAddress.text("");
+                modalArtist.text("");
             });
 
             // place modal

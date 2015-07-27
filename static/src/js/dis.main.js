@@ -19,6 +19,10 @@ var DIS = DIS || {};
 
         // init modules
         var modal = new DIS.Modal({ container: $('[role="region"]') });
+
+        // Get and store screen state from DeviceDetector
+        //screenState = DIS.DeviceDetector.getState();
+        //console.log(screenState, DIS.DeviceDetector.isMobile());
     }
 
     $(function () {
