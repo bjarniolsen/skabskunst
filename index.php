@@ -19,7 +19,7 @@
         <meta property="og:title" content="SkabsKunst - Kunsten ud af skabet" />
         <meta property="og:url" content="http://www.sassi.dk/skabskunst/" />
         <meta property="og:description" content="Aalborg får nu kunsten udenpå skabet! Kunsten får en funktion, som en del af byens rum og det daglige miljø vi færdes i. Et udvalg af byens el og teknik-skabe udsmykkes med kunst/malerier. Hvert enkelt el-skab dekoreres med unik, abstrakt eller figurativ kunst." />
-        <meta property="og:image" content="http://www.sassi.dk/skabskunst/static/dist/img/large/Sassi-Bichoff-Kong-Christians-Alle-Annebergvej.jpg" />
+        <meta property="og:image" content="http://www.sassi.dk/skabskunst/static/dist/img/large/Sassi-Bishoff-Kastetvej-Vestre-Fjordvej.jpg" />
 
         <link rel="stylesheet" href="static/dist/css/main.min.css">
         <!--[if lt IE 9]><script src="static/dist/js/legacy.min.js"></script><![endif]-->
