@@ -94,10 +94,10 @@
                         <div class="col-3">
                             <div class="box" tabindex="0">
                                 <span class="image-wrap">
-                                    <img src="static/dist/img/thumb/Sassi-Bichoff-Kong-Christians-Alle-Borksvej.jpg" alt="Elskab ved hjørnet af Kong Christians Alle og Anders Borks Vej i Aalborg" />
+                                    <img src="static/dist/img/thumb/Sassi-Bishoff-Anders-Borks-Vej-Kong-Christians-Alle.jpg" alt="Elskab ved hjørnet af Anders Borks Vej og Kong Christians Alle i Aalborg" />
                                 </span>
                                 <p>
-                                <span class="address">Kong Christians Alle / Anders Borks Vej, 9000 Aalborg</span>
+                                <span class="address">Anders Borks Vej / Kong Christians Alle, 9000 Aalborg</span>
                                     <span class="artist">Kunstner: Sassi Bischoff</span>
                                 </p>
                             </div>
