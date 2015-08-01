@@ -53,7 +53,7 @@
                                     <img src="static/dist/img/thumb/Sassi-Bischoff-Svalegaardsvej-Hasserisvej.jpg" alt="Elskab ved hjørnet af Svalegaardsvej og Hasserisvej i Aalborg" />
                                 </span>
                                 <p>
-                                <span class="address">Svalegaardsvej / Hasserisvej, 9000 Aalborg</span>
+                                    <span class="address">Svalegaardsvej / Hasserisvej, 9000 Aalborg</span>
                                     <span class="artist">Kunstner: Sassi Bischoff</span>
                                 </p>
                             </div>
@@ -64,7 +64,7 @@
                                     <img src="static/dist/img/thumb/Sassi-Bischoff-Hobrovej-Moelleparkvej.jpg" alt="Elskab ved hjørnet af Hobrovej og Mølleparkvej i Aalborg" />
                                 </span>
                                 <p>
-                                <span class="address">Hobrovej / Mølleparkvej, 9000 Aalborg</span>
+                                    <span class="address">Hobrovej / Mølleparkvej, 9000 Aalborg</span>
                                     <span class="artist">Kunstner: Sassi Bischoff</span>
                                 </p>
                             </div>
@@ -75,7 +75,7 @@
                                     <img src="static/dist/img/thumb/Nina-Vincent-Danmarksgade-Boulevarden.jpg" alt="Elskab ved hjørnet af Danmarksgade og Boulevarden i Aalborg" />
                                 </span>
                                 <p>
-                                <span class="address">Danmarksgade / Boulevarden, 9000 Aalborg</span>
+                                    <span class="address">Danmarksgade / Boulevarden, 9000 Aalborg</span>
                                     <span class="artist">Kunstner: Nina Vincent</span>
                                 </p>
                             </div>
@@ -86,7 +86,7 @@
                                     <img src="static/dist/img/thumb/Sassi-Bischoff-Kong-Christians-Alle-Annebergvej.jpg" alt="Elskab ved hjørnet af Kong Christians Alle og Annebergvej i Aalborg" />
                                 </span>
                                 <p>
-                                <span class="address">Kong Christians Alle / Annebergvej, 9000 Aalborg</span>
+                                    <span class="address">Kong Christians Alle / Annebergvej, 9000 Aalborg</span>
                                     <span class="artist">Kunstner: Sassi Bischoff</span>
                                 </p>
                             </div>
@@ -97,7 +97,7 @@
                                     <img src="static/dist/img/thumb/Sassi-Bischoff-Anders-Borks-Vej-Kong-Christians-Alle.jpg" alt="Elskab ved hjørnet af Anders Borks Vej og Kong Christians Alle i Aalborg" />
                                 </span>
                                 <p>
-                                <span class="address">Anders Borks Vej / Kong Christians Alle, 9000 Aalborg</span>
+                                    <span class="address">Anders Borks Vej / Kong Christians Alle, 9000 Aalborg</span>
                                     <span class="artist">Kunstner: Sassi Bischoff</span>
                                 </p>
                             </div>
@@ -108,7 +108,7 @@
                                     <img src="static/dist/img/thumb/Sassi-Bischoff-Kastetvej-Vestre-Fjordvej.jpg" alt="Elskab ved hjørnet af Kastetvej og Vestre Fjordvej i Aalborg" />
                                 </span>
                                 <p>
-                                <span class="address">Kastetvej / Vestre Fjordvej, 9000 Aalborg</span>
+                                    <span class="address">Kastetvej / Vestre Fjordvej, 9000 Aalborg</span>
                                     <span class="artist">Kunstner: Sassi Bischoff</span>
                                 </p>
                             </div>
@@ -119,7 +119,7 @@
                                     <img src="static/dist/img/thumb/Sassi-Bischoff-Rendsburggade-Nyhavnsgade.jpg" alt="Elskab ved hjørnet af Rendsburggade og Nyhavnsgade i Aalborg" />
                                 </span>
                                 <p>
-                                <span class="address">Rendsburggade / Nyhavnsgade, 9000 Aalborg</span>
+                                    <span class="address">Rendsburggade / Nyhavnsgade, 9000 Aalborg</span>
                                     <span class="artist">Kunstner: Sassi Bischoff</span>
                                 </p>
                             </div>
