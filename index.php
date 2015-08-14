@@ -127,10 +127,11 @@
                         <div class="col-3">
                             <div class="box" tabindex="0">
                                 <span class="image-wrap">
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Kommer snart" />
+                                    <img src="static/dist/img/thumb/Sassi-Bischoff-Kastetvej-Dannebrogsgade.jpg" alt="Elskab ved hjørnet af Kastetvej og Dannebrogsgade i Aalborg" />
                                 </span>
                                 <p>
-                                    <span class="address">Kommer snart</span>
+                                    <span class="address">Kastetvej / Dannebrogsgade, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Sassi Bischoff</span>
                                 </p>
                             </div>
                         </div>
