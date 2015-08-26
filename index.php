@@ -138,20 +138,22 @@
                         <div class="col-3">
                             <div class="box" tabindex="0">
                                 <span class="image-wrap">
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Kommer snart" />
+                                    <img src="static/dist/img/thumb/Sassi-Bischoff-Stolpedalsvej-Hasserisvej.jpg" alt="Elskab ved hjørnet af Stolpedalsvej og Hasserisvej i Aalborg" />
                                 </span>
                                 <p>
-                                    <span class="address">Kommer snart</span>
+                                    <span class="address">Stolpedalsvej / Hasserisvej, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Sassi Bischoff</span>
                                 </p>
                             </div>
                         </div>
                         <div class="col-3">
                             <div class="box" tabindex="0">
                                 <span class="image-wrap">
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Kommer snart" />
+                                    <img src="static/dist/img/thumb/Sassi-Bischoff-Kastetvej-Badehusvej.jpg" alt="Elskab ved hjørnet af Kastetvej og Badehusvej i Aalborg" />
                                 </span>
                                 <p>
-                                    <span class="address">Kommer snart</span>
+                                    <span class="address">Kastetvej / Badehusvej, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Sassi Bischoff</span>
                                 </p>
                             </div>
                         </div>
