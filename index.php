@@ -160,20 +160,22 @@
                         <div class="col-3">
                             <div class="box" tabindex="0">
                                 <span class="image-wrap">
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Kommer snart" />
+                                    <img src="static/dist/img/thumb/Sassi-Bischoff-Boulevarden-Vingaardsgade.jpg" alt="Elskab ved hjørnet af Boulevarden og Vingårdsgade i Aalborg" />
                                 </span>
                                 <p>
-                                    <span class="address">Kommer snart</span>
+                                    <span class="address">Boulevarden / Vingårdsgade, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Sassi Bischoff</span>
                                 </p>
                             </div>
                         </div>
                         <div class="col-3">
                             <div class="box" tabindex="0">
                                 <span class="image-wrap">
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Kommer snart" />
+                                    <img src="static/dist/img/thumb/Ditte-Odderskov-Hobrovej-Ny-kaervej.jpg" alt="Elskab ved hjørnet af Hobrovej og Nykærvej i Aalborg" />
                                 </span>
                                 <p>
-                                    <span class="address">Kommer snart</span>
+                                    <span class="address">Hobrovej / Nykærvej, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Ditte Odderskov</span>
                                 </p>
                             </div>
                         </div>
