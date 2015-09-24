@@ -182,20 +182,22 @@
                         <div class="col-3">
                             <div class="box" tabindex="0">
                                 <span class="image-wrap">
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Kommer snart" />
+                                    <img src="static/dist/img/thumb/Pall-Isaksson-Strandvejen-Gammel-Strandvej.jpg" alt="Elskab ved hjørnet af Strandvejen og Gammel Strandvej i Aalborg" />
                                 </span>
                                 <p>
-                                    <span class="address">Kommer snart</span>
+                                    <span class="address">Strandvejen / Gammel Strandvej, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Páll Ísaksson</span>
                                 </p>
                             </div>
                         </div>
                         <div class="col-3">
                             <div class="box" tabindex="0">
                                 <span class="image-wrap">
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Kommer snart" />
+                                    <img src="static/dist/img/thumb/Sassi-Bischoff-Slotsgade-Nytorv.jpg" alt="Elskab ved hjørnet af Slotsgade og Nytorv i Aalborg" />
                                 </span>
                                 <p>
-                                    <span class="address">Kommer snart</span>
+                                    <span class="address">Slotsgade / Nytorv, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Sassi Bischoff</span>
                                 </p>
                             </div>
                         </div>
