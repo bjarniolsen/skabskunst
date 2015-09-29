@@ -204,10 +204,11 @@
                         <div class="col-3">
                             <div class="box" tabindex="0">
                                 <span class="image-wrap">
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Kommer snart" />
+                                    <img src="static/dist/img/thumb/Sassi-Bischoff-Jyllandsgade-Dag-Hammarskjoeldsgade.jpg" alt="Elskab ved hjørnet af Jyllandsgade og Dag Hammarskjøldsgade i Aalborg" />
                                 </span>
                                 <p>
-                                    <span class="address">Kommer snart</span>
+                                    <span class="address">Jyllandsgade / Dag Hammarskjøldsgade, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Sassi Bischoff</span>
                                 </p>
                             </div>
                         </div>
