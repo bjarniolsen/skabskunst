@@ -94,7 +94,7 @@ img {
 
     .banner-share {
         position: absolute;
-        bottom: 10px;
+        bottom: 13px;
         left: 360px;
         margin: 0;
 
@@ -103,11 +103,15 @@ img {
             padding-bottom: $gutter-default;
             text-align: center;
         }
-        @media all and (min-width: 1440px) {
-            left: auto;
-            bottom: auto;
-            top: $gutter-default;
-            right: $gutter-default;
+
+        > a {
+            color: #3b5998;
+            font-weight: 700;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 }

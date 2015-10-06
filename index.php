@@ -30,8 +30,8 @@
     <body>
 
         <div class="site-wrapper">
-            <header role="banner">
-                <h1 class="max-width"><a href="<?php $_SERVER['PHP_SELF'] ?>" title="Til forsiden">Sassi Bischoff</a> SkabsKunst - Kunsten ud af skabet</h1>
+            <header role="banner" class="max-width boxed-band">
+                <h1><a href="<?php $_SERVER['PHP_SELF'] ?>" title="Til forsiden">Sassi Bischoff</a> SkabsKunst - Kunsten ud af skabet</h1>
                 <p class="banner-share">
                     <a href="https://www.facebook.com/skabskunst" target="_blank">Følg på Facebook</a>
                     </span> eller </span>
