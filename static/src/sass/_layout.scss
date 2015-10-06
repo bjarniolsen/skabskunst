@@ -50,6 +50,7 @@ img {
 }
 
 [role="banner"] {
+    position: relative;
     background-color: #e9e9e9;
 
     > h1 {
@@ -63,7 +64,7 @@ img {
         @media only screen and (max-width: $bp-lg-min) {
             height: auto;
             line-height: inherit;
-            padding: $gutter-default;
+            padding: $gutter-default $gutter-default $gutter-default / 2;
             font-size: 1.5em;
             text-align: center;
         }
@@ -88,6 +89,25 @@ img {
                 background-position: top center;
                 background-size: 140px;
             }
+        }
+    }
+
+    .banner-share {
+        position: absolute;
+        bottom: 10px;
+        left: 360px;
+        margin: 0;
+
+        @media only screen and (max-width: $bp-lg-min) {
+            position: static;
+            padding-bottom: $gutter-default;
+            text-align: center;
+        }
+        @media all and (min-width: 1440px) {
+            left: auto;
+            bottom: auto;
+            top: $gutter-default;
+            right: $gutter-default;
         }
     }
 }

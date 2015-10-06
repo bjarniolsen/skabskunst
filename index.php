@@ -19,6 +19,7 @@
         <meta property="og:title" content="SkabsKunst - Kunsten ud af skabet" />
         <meta property="og:url" content="http://www.sassi.dk/skabskunst/" />
         <meta property="og:description" content="Aalborg får nu kunsten udenpå skabet! Kunsten får en funktion, som en del af byens rum og det daglige miljø vi færdes i. Et udvalg af byens el og teknik-skabe udsmykkes med kunst/malerier. Hvert enkelt el-skab dekoreres med unik, abstrakt eller figurativ kunst." />
+        <meta property="og:type" content="website" />
         <meta property="og:image" content="http://www.sassi.dk/skabskunst/static/dist/img/large/Sassi-Bischoff-Kastetvej-Vestre-Fjordvej.jpg" />
 
         <link rel="stylesheet" href="static/dist/css/main.min.css">
@@ -31,6 +32,11 @@
         <div class="site-wrapper">
             <header role="banner">
                 <h1 class="max-width"><a href="<?php $_SERVER['PHP_SELF'] ?>" title="Til forsiden">Sassi Bischoff</a> SkabsKunst - Kunsten ud af skabet</h1>
+                <p class="banner-share">
+                    <a href="https://www.facebook.com/skabskunst" target="_blank">Følg på Facebook</a>
+                    </span> eller </span>
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.sassi.dk/skabskunst" target="_blank">Del på Facebook</a>
+                </p>
             </header>
 
             <main role="main" class="max-width">
@@ -215,30 +221,33 @@
                         <div class="col-3">
                             <div class="box" tabindex="0">
                                 <span class="image-wrap">
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Kommer snart" />
+                                    <img src="static/dist/img/thumb/John-Keez-Madisa-Hobrovej-Sdr-Skovvej.jpg" alt="Elskab ved hjørnet af Hobrovej og Sdr Skovvej i Aalborg" />
                                 </span>
                                 <p>
-                                    <span class="address">Kommer snart</span>
+                                    <span class="address">Hobrovej / Sdr Skovvej, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: John Keez Madisa</span>
                                 </p>
                             </div>
                         </div>
                         <div class="col-3">
                             <div class="box" tabindex="0">
                                 <span class="image-wrap">
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Kommer snart" />
+                                    <img src="static/dist/img/thumb/Sassi-Bischoff-og-Kofoeds-Skole-Jyllandsgade-Rantzausgade.jpg" alt="Elskab ved hjørnet af Jyllandsgade og Rantzausgade i Aalborg" />
                                 </span>
                                 <p>
-                                    <span class="address">Kommer snart</span>
+                                    <span class="address">Jyllandsgade / Rantzausgade, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Sassi Bischoff og Kofoeds Skole</span>
                                 </p>
                             </div>
                         </div>
                         <div class="col-3">
                             <div class="box" tabindex="0">
                                 <span class="image-wrap">
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Kommer snart" />
+                                    <img src="static/dist/img/thumb/Sassi-Bischoff-Hobrovej-Kong-Christians-Alle.jpg" alt="Elskab ved hjørnet af Hobrovej og Kong Christians Alle i Aalborg" />
                                 </span>
                                 <p>
-                                    <span class="address">Kommer snart</span>
+                                    <span class="address">Hobrovej / Kong Christians Alle, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Sassi Bischoff</span>
                                 </p>
                             </div>
                         </div>
