@@ -254,10 +254,11 @@
                         <div class="col-3">
                             <div class="box" tabindex="0">
                                 <span class="image-wrap">
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Kommer snart" />
+                                    <img src="static/dist/img/thumb/Nina-Vincent-Hasserisgade-Kong-Christians-Alle.jpg" alt="Elskab ved hjørnet af Hasserisgade og Kong Christians Alle i Aalborg" />
                                 </span>
                                 <p>
-                                    <span class="address">Kommer snart</span>
+                                    <span class="address">Hasserisgade / Kong Christians Alle, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Nina Vincent</span>
                                 </p>
                             </div>
                         </div>
