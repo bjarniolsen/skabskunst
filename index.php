@@ -365,6 +365,7 @@
             </main>
 
             <footer role="content-info">
+                <p class="max-width">Projektet er tilladt af Aalborg Kommunes By- og Landskabsforvaltning og støttet økonomisk af kulturaftalen Ud-over-KANTen-puljen.</p>
                 <p class="max-width">Kontakt: Sassi Bischoff, Email: sassibis@hotmail.com</p>
             </footer>
         </div>
