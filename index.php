@@ -262,6 +262,104 @@
                                 </p>
                             </div>
                         </div>
+                        <div class="col-3">
+                            <div class="box" tabindex="0">
+                                <span class="image-wrap">
+                                    <img src="static/dist/img/thumb/Sassi-Bischoff-Vestergade-Kirkegade-Noerresundby.jpg" alt="Elskab ved hjørnet af Vestergade og Kirkegade i Nørresundby" />
+                                </span>
+                                <p>
+                                    <span class="address">Vestergade / Kirkegade, 9400 Nørresundby</span>
+                                    <span class="artist">Kunstner: Sassi Bischoff</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="box" tabindex="0">
+                                <span class="image-wrap">
+                                    <img src="static/dist/img/thumb/Sassi-Bischoff-Viaduktvej-Thistedvej-Noerresundby.jpg" alt="Elskab ved hjørnet af Viaduktvej og Thistedvej i Nørresundby" />
+                                </span>
+                                <p>
+                                    <span class="address">Viaduktvej / Thistedvej, 9400 Nørresundby</span>
+                                    <span class="artist">Kunstner: Sassi Bischoff</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="box" tabindex="0">
+                                <span class="image-wrap">
+                                    <img src="static/dist/img/thumb/Sassi-Bischoff-Hobrovej-Skipper-Clements-vej-Svenstrup.jpg" alt="Elskab ved hjørnet af Hobrovej og Skipper Clements vej i Svenstrup" />
+                                </span>
+                                <p>
+                                    <span class="address">Hobrovej / Skipper Clements vej, 9230 Svenstrup</span>
+                                    <span class="artist">Kunstner: Sassi Bischoff</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="box" tabindex="0">
+                                <span class="image-wrap">
+                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Umalet elskab" />
+                                </span>
+								<!--
+                                <p>
+                                    <span class="address">Hasserisgade / Kong Christians Alle, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Nina Vincent</span>
+                                </p>
+								-->
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="box" tabindex="0">
+                                <span class="image-wrap">
+                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Umalet elskab" />
+                                </span>
+								<!--
+                                <p>
+                                    <span class="address">Hasserisgade / Kong Christians Alle, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Nina Vincent</span>
+                                </p>
+								-->
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="box" tabindex="0">
+                                <span class="image-wrap">
+                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Umalet elskab" />
+                                </span>
+								<!--
+                                <p>
+                                    <span class="address">Hasserisgade / Kong Christians Alle, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Nina Vincent</span>
+                                </p>
+								-->
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="box" tabindex="0">
+                                <span class="image-wrap">
+                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Umalet elskab" />
+                                </span>
+								<!--
+                                <p>
+                                    <span class="address">Hasserisgade / Kong Christians Alle, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Nina Vincent</span>
+                                </p>
+								-->
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="box" tabindex="0">
+                                <span class="image-wrap">
+                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Umalet elskab" />
+                                </span>
+								<!--
+                                <p>
+                                    <span class="address">Hasserisgade / Kong Christians Alle, 9000 Aalborg</span>
+                                    <span class="artist">Kunstner: Nina Vincent</span>
+                                </p>
+								-->
+                            </div>
+                        </div>
                     </div>
                 </section>
             </main>

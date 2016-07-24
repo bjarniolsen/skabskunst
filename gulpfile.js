@@ -166,7 +166,8 @@
                         'resourcecopy',
                         cssPreprocessor, // Will be either "less" or "sass", dependent on what you've selected above.
                         'js',
-                        'lint'
+                        'lint',
+                        'images'
                     ] :
                     [
                         // This task will fire if you haven't selected a preprocessor. Shame on you!
@@ -466,14 +467,14 @@
             gulp.src([
                 'static/src/img/**/*.{png,jpg,jpeg,gif,svg}'
             ], { base: 'static/src' })
-                .pipe(plumber())
-                .pipe(imageop({
-                    optimizationLevel: 5,
-                    progressive: true,
-                    interlaced: true,
-                    quality: '65-80'
-                }))
-                .pipe(plumber.stop())
+                //.pipe(plumber())
+                //.pipe(imageop({
+                    //optimizationLevel: 5,
+                    //progressive: true,
+                    //interlaced: true,
+                    //quality: '65-80'
+                //}))
+                //.pipe(plumber.stop())
                 // Render the output into the DIST folder
                 .pipe(gulp.dest('static/dist'));
         });
