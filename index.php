@@ -298,14 +298,12 @@
                         <div class="col-3">
                             <div class="box" tabindex="0">
                                 <span class="image-wrap">
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Umalet elskab" />
+                                    <img src="static/dist/img/thumb/Sassi-Bischoff-Engvej-Oesterbrogade.jpg" alt="Elskab ved hjørnet af Engvej og Østerbrogade" />
                                 </span>
-								<!--
-                                <p>
-                                    <span class="address">Hasserisgade / Kong Christians Alle, 9000 Aalborg</span>
-                                    <span class="artist">Kunstner: Nina Vincent</span>
-                                </p>
-								-->
+								<p>
+									<span class="address">Engvej / Østerbrogade, 9400 Nørresundby</span>
+									<span class="artist">Kunstner: Sassi Bischoff</span>
+								</p>
                             </div>
                         </div>
                         <div class="col-3">
