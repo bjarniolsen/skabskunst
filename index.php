@@ -309,14 +309,23 @@
                         <div class="col-3">
                             <div class="box" tabindex="0">
                                 <span class="image-wrap">
-                                    <img src="static/dist/img/umalet-el-skab.jpg" alt="Umalet elskab" />
+                                    <img src="static/dist/img/thumb/Pall-Isaksson-Hobrovej-Ove-Kaeret.jpg" alt="Elskab ved hjørnet af Hobrovej og Ove Kæret" />
                                 </span>
-								<!--
-                                <p>
-                                    <span class="address">Hasserisgade / Kong Christians Alle, 9000 Aalborg</span>
-                                    <span class="artist">Kunstner: Nina Vincent</span>
-                                </p>
-								-->
+								<p>
+									<span class="address">Hobrovej / Ove Kæret, 9000 Aalborg</span>
+									<span class="artist">Kunstner: Páll Isaksson</span>
+								</p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="box" tabindex="0">
+                                <span class="image-wrap">
+                                    <img src="static/dist/img/thumb/Sassi-Bischoff-Nyhavnsgade-Kjellerups-Torv.jpg" alt="Elskab ved hjørnet af Nyhavnsgade og Kjellerups Torv" />
+                                </span>
+								<p>
+									<span class="address">Nyhavnsgade / Kjellerups Torv, 9000 Aalborg</span>
+									<span class="artist">Kunstner: Sassi Bischoff</span>
+								</p>
                             </div>
                         </div>
                         <div class="col-3">
@@ -348,16 +357,49 @@
                         <div class="col-3">
                             <div class="box" tabindex="0">
                                 <span class="image-wrap">
+                                    <img src="static/dist/img/thumb/Sassi-Bischoff-Hoejbro-Vesterbro-Nykoebing-Mors.jpg" alt="Elskab ved hjørnet af Højbro og Vesterbro på Nykøbing Mors" />
+                                </span>
+								<p>
+									<span class="address">Højbro / Vesterbro, 7900 Nykøbing Mors</span>
+									<span class="artist">Kunstner: Sassi Bischoff</span>
+								</p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="box" tabindex="0">
+                                <span class="image-wrap">
+                                    <img src="static/dist/img/thumb/Sassi-Bischoff-Jernbanevej-Holmen-Nykoebing-Mors.jpg" alt="Elskab ved hjørnet af Jernbanevej og Holmen på Nykøbing Mors" />
+                                </span>
+								<p>
+									<span class="address">Jernbanevej / Holmen, 7900 Nykøbing Mors</span>
+									<span class="artist">Kunstner: Sassi Bischoff</span>
+								</p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="box" tabindex="0">
+                                <span class="image-wrap">
+                                    <img src="static/dist/img/thumb/Sassi-Bischoff-Vesterbro-Jernbanevej-Nykoebing-Mors.jpg" alt="Elskab ved hjørnet af Vesterbro og Jernbanevej på Nykøbing Mors" />
+                                </span>
+								<p>
+									<span class="address">Vesterbro / Jernbanevej, 7900 Nykøbing Mors</span>
+									<span class="artist">Kunstner: Sassi Bischoff</span>
+								</p>
+                            </div>
+                        </div>
+						<!--
+                        <div class="col-3">
+                            <div class="box" tabindex="0">
+                                <span class="image-wrap">
                                     <img src="static/dist/img/umalet-el-skab.jpg" alt="Umalet elskab" />
                                 </span>
-								<!--
                                 <p>
                                     <span class="address">Hasserisgade / Kong Christians Alle, 9000 Aalborg</span>
                                     <span class="artist">Kunstner: Nina Vincent</span>
                                 </p>
-								-->
                             </div>
                         </div>
+						-->
                     </div>
                 </section>
             </main>
